@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog Lập Trình Mạng</title>
+    <link>https:llllluan2534.github.io/</link>
+    <description>Recent content on Blog Lập Trình Mạng</description>
+    <generator>Hugo -- 0.153.2</generator>
+    <language>vi</language>
+    <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https:llllluan2534.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bài 1: Tổng quan về Lập trình mạng với Java</title>
+      <link>https:llllluan2534.github.io/posts/bai-1-tong-quan-lap-trinh-mang/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https:llllluan2534.github.io/posts/bai-1-tong-quan-lap-trinh-mang/</guid>
+      <description>&lt;p&gt;Trong bài viết này, mình sẽ chia sẻ về kiến thức cơ bản của lập trình mạng&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;1-địa-chỉ-ip-là-gì&#34;&gt;1. Địa chỉ IP là gì?&lt;/h2&gt;
+&lt;p&gt;(Nội dung&amp;hellip;)&lt;/p&gt;
+&lt;h2 id=&#34;2-code-ví-dụ&#34;&gt;2. Code ví dụ&lt;/h2&gt;
+&lt;p&gt;Dưới đây là đoạn code Java lấy IP của máy:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.net.InetAddress;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;MyIP&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;try&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            InetAddress myIP &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; InetAddress.&lt;span style=&#34;color:#a6e22e&#34;&gt;getLocalHost&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;My IP: &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; myIP.&lt;span style=&#34;color:#a6e22e&#34;&gt;getHostAddress&lt;/span&gt;());
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        } &lt;span style=&#34;color:#66d9ef&#34;&gt;catch&lt;/span&gt; (Exception e) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            e.&lt;span style=&#34;color:#a6e22e&#34;&gt;printStackTrace&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Về Tôi</title>
+      <link>https:llllluan2534.github.io/about/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https:llllluan2534.github.io/about/</guid>
+      <description>&lt;h2 id=&#34;-xin-chào-tôi-là-tên-của-bạn&#34;&gt;👋 Xin chào, tôi là [Tên Của Bạn]&lt;/h2&gt;
+&lt;h3 id=&#34;thông-tin-cá-nhân&#34;&gt;Thông tin cá nhân&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:your.email@gmail.com&#34;&gt;your.email@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; github.com/yourname&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Công nghệ yêu thích:&lt;/strong&gt; Java, JavaScript, Web Development&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;về-tôi&#34;&gt;Về tôi&lt;/h3&gt;
+&lt;p&gt;Tôi là một sinh viên [tên trường] đam mê lập trình.
+Hiện đang học tập các kỹ năng về:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Java: OOP, Design Patterns, Spring Framework&lt;/li&gt;
+&lt;li&gt;JavaScript: Frontend, DOM, Async Programming&lt;/li&gt;
+&lt;li&gt;Web Development: HTML, CSS, Responsive Design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;mục-đích-blog&#34;&gt;Mục đích blog&lt;/h3&gt;
+&lt;p&gt;Blog này được tạo để chia sẻ kiến thức, kinh nghiệm học tập
+về Java và JavaScript cũng như các vấn đề lập trình khác.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
