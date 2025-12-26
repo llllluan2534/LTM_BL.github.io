@@ -1,5 +1,7 @@
 # Sửa lại đúng đường dẫn này (Lưu ý có dấu / ở cuối)
 baseURL = "https://llllluan2534.github.io/LTM_BL.github.io/"
+# 2. Thêm dòng này để Hugo tự động ép đường dẫn CSS/JS theo baseURL trên
+canonifyURLs = true
 languageCode = 'vi'
 title = 'Blog Lập Trình Mạng'
 theme = 'PaperMod'
@@ -38,7 +40,7 @@ Chào mừng đến với Blog cá nhân của mình. Nơi chia sẻ kiến th�
 </div>
 </div>
 
-<img src="assets/meo.png" alt="Logo Blog" 
+<img src="/LTM_BL.github.io/assets/meo.png" alt="Logo Blog" 
 style="width: 250px; height: 200px50px; object-fit: cover; border-radius: 0%; box-shadow: 0 0px 0px rgba(0,0,0,0.1); border: 0px solid white;">
 
 
