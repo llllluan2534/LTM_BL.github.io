@@ -1,6 +1,5 @@
 # Sửa lại đúng đường dẫn này (Lưu ý có dấu / ở cuối)
-baseURL = "https://llllluan2534.github.io/"
-
+baseURL = "https://llllluan2534.github.io/LTM_BL.github.io/"
 languageCode = 'vi'
 title = 'Blog Lập Trình Mạng'
 theme = 'PaperMod'
