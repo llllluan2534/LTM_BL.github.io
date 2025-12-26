@@ -1,0 +1,109 @@
+baseURL = "https://llllluan2534.github.io/"
+languageCode = 'vi'
+title = 'Blog Lập Trình Mạng'
+theme = 'PaperMod'
+
+# 1. CẤU HÌNH ĐỂ TÌM KIẾM HOẠT ĐỘNG
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+defaultTheme = "light"
+description = "Blog chia sẻ kiến thức Java, JavaScript và Network Programming"
+
+# --- GIAO DIỆN BÀI VIẾT ---
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = false
+ShowToc = false
+TocOpen = true
+
+# --- CẤU HÌNH PROFILE & WIDGET TÌM KIẾM LIVE ---
+[params.homeInfoParams]
+# Code đã được sửa để chia 2 cột: Trái (Nội dung) - Phải (Logo)
+Content = """
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 30px; flex-wrap: wrap;">
+    
+<div style="flex: 1; min-width: 300px;">
+Chào mừng đến với Blog cá nhân của mình. Nơi chia sẻ kiến thức về Lập trình mạng, Java và JavaScript.
+<div style="margin-top:20px;padding:20px;background:#f7f7f7;border-radius:12px;border:1px solid #eee;position:relative;">
+<div style="display:flex;gap:10px;">
+<input type="text" id="live-search-input" placeholder="Gõ từ khóa để tìm nhanh..." onkeyup="liveSearch()" style="flex:1;padding:12px;border-radius:6px;border:1px solid #ccc;outline:none;">
+</div>
+<ul id="live-search-results" style="list-style:none;padding:0;margin:10px 0 0 0;display:none;background:white;border:1px solid #eee;border-radius:6px;max-height:200px;overflow-y:auto;box-shadow:0 4px 6px rgba(0,0,0,0.05);"></ul>
+</div>
+</div>
+
+<img src="assets/meo.png" alt="Logo Blog" 
+style="width: 250px; height: 200px50px; object-fit: cover; border-radius: 0%; box-shadow: 0 0px 0px rgba(0,0,0,0.1); border: 0px solid white;">
+
+
+</div>
+
+<script>
+let searchData=null;async function liveSearch(){const query=document.getElementById('live-search-input').value.toLowerCase();const resultsList=document.getElementById('live-search-results');if(query.length===0){resultsList.style.display='none';return;}if(!searchData){try{const response=await fetch('/index.json');searchData=await response.json();}catch(error){console.error("Lỗi tải dữ liệu tìm kiếm:",error);return;}}const results=searchData.filter(item=>{const title=item.title?item.title.toLowerCase():"";const content=item.content?item.content.toLowerCase():"";return title.includes(query)||content.includes(query);});resultsList.innerHTML='';resultsList.style.display='block';if(results.length===0){resultsList.innerHTML='<li style="padding:10px;color:#666;">Không tìm thấy kết quả nào.</li>';}else{results.slice(0,5).forEach(item=>{const li=document.createElement('li');li.innerHTML=`<a href="${item.permalink}" style="display:block;padding:10px;text-decoration:none;border-bottom:1px solid #f0f0f0;color:#333;font-weight:500;">${item.title}</a>`;li.querySelector('a').onmouseover=function(){this.style.backgroundColor='#f9f9f9';};li.querySelector('a').onmouseout=function(){this.style.backgroundColor='transparent';};resultsList.appendChild(li);});}}
+</script>
+"""
+
+# --- MẠNG XÃ HỘI ---
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/llllluan2534"
+[[params.socialIcons]]
+name = "facebook"
+url = "https://www.facebook.com/bluan.253/"
+[[params.socialIcons]]
+name = "email"
+url = "mailto:bichluan253@gmail.com"
+
+# --- ẢNH BÌA ---
+[params.cover]
+hidden = false
+hiddenInList = false
+hiddenInSingle = false
+responsiveImages = true
+
+# --- BÌNH LUẬN ---
+[params.comments]
+host = "https://giscus.app"
+repo = "llllluan2534/LTM_BL.github.io"
+repoId = "R_kgDOQuPdjw"
+category = "General"
+categoryId = "DIC_kwDOQuPdj84C0QkL"
+mapping = "pathname"
+strict = 0
+reactionsEnabled = 1
+emitMetadata = 0
+inputPosition = "bottom"
+theme = "light"
+lang = "vi"
+loading = "lazy"
+
+# --- MENU ---
+[[menu.main]]
+identifier = "home"
+name = "Trang Chủ"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "blog"
+name = "Bài Viết"
+url = "/posts/"
+weight = 20
+
+
+
+[[menu.main]]
+identifier = "about"
+name = "Profile"
+url = "/about/"
+weight = 30
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
