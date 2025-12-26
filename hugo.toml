@@ -87,25 +87,30 @@ lang = "vi"
 loading = "lazy"
 
 # --- MENU ---
+# --- MENU ---
 [[menu.main]]
-identifier = "home"
-name = "Trang Chủ"
-url = "/LTM_BL.github.io/"
-weight = 10
-
-[[menu.main]]
-identifier = "blog"
-name = "Bài Viết"
-url = "/LTM_BL.github.io/posts/"
-weight = 20
-
-
+  identifier = "home"
+  name = "Trang Chủ"
+  url = "https://llllluan2534.github.io/LTM_BL.github.io/"
+  weight = 10
 
 [[menu.main]]
-identifier = "about"
-name = "Profile"
-url = "/LTM_BL.github.io/about/"
-weight = 30
+  identifier = "blog"
+  name = "Bài Viết"
+  url = "https://llllluan2534.github.io/LTM_BL.github.io/posts/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "search"
+  name = "🔍"
+  url = "https://llllluan2534.github.io/LTM_BL.github.io/search/"
+  weight = 25
+
+[[menu.main]]
+  identifier = "about"
+  name = "Profile"
+  url = "https://llllluan2534.github.io/LTM_BL.github.io/about/"
+  weight = 30
 
 [markup]
 [markup.goldmark]
