@@ -5,7 +5,7 @@ on:
   # Chạy khi có code đẩy lên nhánh main
   push:
     branches:
-      - main # Hoặc 'master' nếu nhánh chính của bạn tên là master
+      - master # Hoặc 'master' nếu nhánh chính của bạn tên là master
 
   # Cho phép chạy thủ công từ tab Actions
   workflow_dispatch:
