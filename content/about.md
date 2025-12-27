@@ -110,7 +110,7 @@ Xin chào! Mình là sinh viên năm cuối ngành Công nghệ Thông tin, chuy
 <img src="/assets/java.png" alt="JS" style="width:50px;height:50px;object-fit:contain">
 </div>
 <div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center;transition:transform 0.2s">
-<img src="/assets/Github-Logo.png" alt="GitHub" style="width:50px;height:50px;object-fit:contain">
+<img src="/assets/Github.png" alt="GitHub" style="width:50px;height:50px;object-fit:contain">
 </div>
 <div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center;transition:transform 0.2s">
 <img src="/assets/git-logo.png" alt="Git" style="width:50px;height:50px;object-fit:contain">
