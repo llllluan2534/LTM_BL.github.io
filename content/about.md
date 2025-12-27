@@ -61,7 +61,7 @@ Xin chào! Mình là sinh viên năm cuối ngành Công nghệ Thông tin, chuy
 <p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Ứng dụng quản lý lịch chiếu, hỗ trợ khách hàng đặt vé, chọn ghế realtime và thanh toán.</p>
 <div style="border-top:1px solid var(--border);padding-top:15px;display:flex;justify-content:space-between">
 <span style="font-weight:bold;color:var(--primary)">JavaScripts / SQL</span>
-<a href="#" style="font-weight:bold;text-decoration:none">Xem Code ➔</a>
+<a href="https://github.com/llllluan2534/Project_MovieTicketBooking_NodeJS-" style="font-weight:bold;text-decoration:none">Xem Code ➔</a>
 </div>
 </div>
 </div>
@@ -74,46 +74,22 @@ Xin chào! Mình là sinh viên năm cuối ngành Công nghệ Thông tin, chuy
 <p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Trợ lý AI giúp truy xuất, phân tích và tóm tắt kiến thức từ giáo trình, tài liệu học tập.</p>
 <div style="border-top:1px solid var(--border);padding-top:15px;display:flex;justify-content:space-between">
 <span style="font-weight:bold;color:var(--primary)">AI / RAG / TypeScript</span>
-<a href="#" style="font-weight:bold;text-decoration:none">repo ➔</a>
+<a href="https://doc-mentor-one.vercel.app/" style="font-weight:bold;text-decoration:none">web ➔</a>
 </div>
 </div>
 </div>
 <div style="background:var(--entry);border-radius:16px;overflow:hidden;border:1px solid var(--border);transition:transform 0.3s ease">
 <div style="height:180px;overflow:hidden">
-<img src="/images/project-blog.jpg" alt="Giao diện Blog cá nhân" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
+<img src="/assets/blog.png" alt="Giao diện Blog cá nhân" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
 </div>
 <div style="padding:25px">
 <h3 style="margin:0 0 10px 0;font-size:1.3rem">Blog Lập trình mạng</h3>
 <p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px">Website cá nhân Hugo, Markdown, GitHub Pages.</p>
 <div style="border-top:1px solid var(--border);padding-top:15px;display:flex;justify-content:space-between">
 <span style="font-weight:bold;color:var(--primary)">Hugo / HTML</span>
-<a href="#" style="font-weight:bold;text-decoration:none">Xem Demo ➔</a>
+<a href="https://llllluan2534.github.io/" style="font-weight:bold;text-decoration:none">Xem Demo ➔</a>
 </div>
 </div>
-</div>
-</div>
-</div>
-
-<div style="margin-bottom:80px">
-<h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Hành Trình Của Tôi</h2>
-<div style="max-width:800px;margin:0 auto;position:relative;border-left:3px solid var(--border);padding-left:30px">
-<div style="position:relative;margin-bottom:40px">
-<div style="position:absolute;left:-39px;top:0;width:16px;height:16px;border-radius:50%;background:var(--primary);border:4px solid var(--theme)"></div>
-<span style="font-size:0.85rem;font-weight:bold;color:var(--primary);background:var(--entry);padding:4px 10px;border-radius:4px;border:1px solid var(--border)">2025 - Nay</span>
-<h3 style="margin:10px 0 5px 0">Phát triển Fullstack & AI Agent</h3>
-<p style="opacity:0.8;font-size:0.95rem">Tập trung nghiên cứu sâu về tích hợp AI (RAG) vào ứng dụng Web. Xây dựng dự án DocMentor và hoàn thành các chứng chỉ chuyên sâu của Cisco.</p>
-</div>
-<div style="position:relative;margin-bottom:40px">
-<div style="position:absolute;left:-39px;top:0;width:16px;height:16px;border-radius:50%;background:var(--secondary);border:4px solid var(--theme)"></div>
-<span style="font-size:0.85rem;font-weight:bold;color:var(--secondary);background:var(--entry);padding:4px 10px;border-radius:4px;border:1px solid var(--border)">2024</span>
-<h3 style="margin:10px 0 5px 0">Hackathon & Giải thưởng</h3>
-<p style="opacity:0.8;font-size:0.95rem">Tham gia cuộc thi Pione Dream Hackathon. Giành giải Sinh viên 5 tốt cấp Khoa nhờ cân bằng giữa học tập và phong trào.</p>
-</div>
-<div style="position:relative;margin-bottom:40px">
-<div style="position:absolute;left:-39px;top:0;width:16px;height:16px;border-radius:50%;background:var(--secondary);border:4px solid var(--theme)"></div>
-<span style="font-size:0.85rem;font-weight:bold;color:var(--secondary);background:var(--entry);padding:4px 10px;border-radius:4px;border:1px solid var(--border)">2021</span>
-<h3 style="margin:10px 0 5px 0">Bắt đầu tại HUTECH</h3>
-<p style="opacity:0.8;font-size:0.95rem">Bước chân vào chuyên ngành Công nghệ phần mềm. Bắt đầu làm quen với C++, Java và tư duy lập trình nền tảng.</p>
 </div>
 </div>
 </div>
@@ -240,8 +216,8 @@ Dự án: Pione Game Trace.</p>
 <div style="background:var(--entry);padding:40px;text-align:center;border-top:4px solid var(--primary)">
 <h2 style="margin:0 0 20px 0">Liên hệ</h2>
 <div style="display:flex;justify-content:center;gap:30px;flex-wrap:wrap">
-<a href="mailto:bichluan253@gmail.com" style="text-decoration:none;font-weight:bold;display:flex;align-items:center;gap:10px">📧 bichluan253@gmail.com</a>
-<a href="https://github.com/llllluan2534" style="text-decoration:none;font-weight:bold;display:flex;align-items:center;gap:10px">🐈 GitHub</a>
+<a href="mailto:bichluan253@gmail.com" style="text-decoration:none;font-weight:bold;display:flex;align-items:center;gap:10px">bichluan253@gmail.com</a>
+<a href="https://github.com/llllluan2534" style="text-decoration:none;font-weight:bold;display:flex;align-items:center;gap:10px">GitHub</a>
 </div>
 </div>
 </div>
