@@ -6,7 +6,8 @@ theme = 'PaperMod'
 # 1. CẤU HÌNH ĐỂ TÌM KIẾM HOẠT ĐỘNG
 [outputs]
 home = ["HTML", "RSS", "JSON"]
-
+[params.label]
+icon = "logo.png"
 [params]
 defaultTheme = "light"
 description = "Blog chia sẻ kiến thức Java, JavaScript và Network Programming"
