@@ -1,5 +1,5 @@
 # Sửa lại đúng đường dẫn này (Lưu ý có dấu / ở cuối)
-baseURL = "https://llllluan2534.github.io/LTM_BL.github.io/"
+baseURL = "https://llllluan2534.github.io/"
 # 2. Thêm dòng này để Hugo tự động ép đường dẫn CSS/JS theo baseURL trên
 
 languageCode = 'vi'
@@ -41,14 +41,14 @@ Chào mừng đến với Blog cá nhân của mình. Nơi chia sẻ kiến th�
 </div>
 </div>
 
-<img src="LTM_BL.github.io/LTM_BL.github.io/assets/meo.png" alt="Logo Blog" 
+<img src="/assets/meo.png" alt="Logo Blog" 
 style="width: 250px; height: 200px50px; object-fit: cover; border-radius: 0%; box-shadow: 0 0px 0px rgba(0,0,0,0.1); border: 0px solid white;">
 
 
 </div>
 
 <script>
-let searchData=null;async function liveSearch(){const query=document.getElementById('live-search-input').value.toLowerCase();const resultsList=document.getElementById('live-search-results');if(query.length===0){resultsList.style.display='none';return;}if(!searchData){try{const response=await fetch('LTM_BL.github.io/index.json');searchData=await response.json();}catch(error){console.error("Lỗi tải dữ liệu tìm kiếm:",error);return;}}const results=searchData.filter(item=>{const title=item.title?item.title.toLowerCase():"";const content=item.content?item.content.toLowerCase():"";return title.includes(query)||content.includes(query);});resultsList.innerHTML='';resultsList.style.display='block';if(results.length===0){resultsList.innerHTML='<li style="padding:10px;color:#666;">Không tìm thấy kết quả nào.</li>';}else{results.slice(0,5).forEach(item=>{const li=document.createElement('li');li.innerHTML=`<a href="${item.permalink}" style="display:block;padding:10px;text-decoration:none;border-bottom:1px solid #f0f0f0;color:#333;font-weight:500;">${item.title}</a>`;li.querySelector('a').onmouseover=function(){this.style.backgroundColor='#f9f9f9';};li.querySelector('a').onmouseout=function(){this.style.backgroundColor='transparent';};resultsList.appendChild(li);});}}
+let searchData=null;async function liveSearch(){const query=document.getElementById('live-search-input').value.toLowerCase();const resultsList=document.getElementById('live-search-results');if(query.length===0){resultsList.style.display='none';return;}if(!searchData){try{const response=await fetch('/index.json');searchData=await response.json();}catch(error){console.error("Lỗi tải dữ liệu tìm kiếm:",error);return;}}const results=searchData.filter(item=>{const title=item.title?item.title.toLowerCase():"";const content=item.content?item.content.toLowerCase():"";return title.includes(query)||content.includes(query);});resultsList.innerHTML='';resultsList.style.display='block';if(results.length===0){resultsList.innerHTML='<li style="padding:10px;color:#666;">Không tìm thấy kết quả nào.</li>';}else{results.slice(0,5).forEach(item=>{const li=document.createElement('li');li.innerHTML=`<a href="${item.permalink}" style="display:block;padding:10px;text-decoration:none;border-bottom:1px solid #f0f0f0;color:#333;font-weight:500;">${item.title}</a>`;li.querySelector('a').onmouseover=function(){this.style.backgroundColor='#f9f9f9';};li.querySelector('a').onmouseout=function(){this.style.backgroundColor='transparent';};resultsList.appendChild(li);});}}
 </script>
 """
 
@@ -87,25 +87,23 @@ lang = "vi"
 loading = "lazy"
 
 # --- MENU ---
-# --- MENU ---
 [[menu.main]]
   identifier = "home"
   name = "Trang Chủ"
-  url = "https://llllluan2534.github.io/LTM_BL.github.io/"
+  url = "/"
   weight = 10
 
 [[menu.main]]
   identifier = "blog"
   name = "Bài Viết"
-  url = "https://llllluan2534.github.io/LTM_BL.github.io/posts/"
+  url = "/posts/"
   weight = 20
-
 
 
 [[menu.main]]
   identifier = "about"
   name = "Profile"
-  url = "https://llllluan2534.github.io/LTM_BL.github.io/about/"
+  url = "/about/"
   weight = 30
 
 [markup]
