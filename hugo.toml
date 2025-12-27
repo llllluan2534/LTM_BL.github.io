@@ -1,7 +1,4 @@
-# Sửa lại đúng đường dẫn này (Lưu ý có dấu / ở cuối)
 baseURL = "https://llllluan2534.github.io/"
-# 2. Thêm dòng này để Hugo tự động ép đường dẫn CSS/JS theo baseURL trên
-
 languageCode = 'vi'
 title = 'Blog Lập Trình Mạng'
 theme = 'PaperMod'
@@ -15,7 +12,7 @@ defaultTheme = "light"
 description = "Blog chia sẻ kiến thức Java, JavaScript và Network Programming"
 
 # --- GIAO DIỆN BÀI VIẾT ---
-ShowReadingTime = true
+ShowReadingTime = false
 ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
@@ -24,13 +21,14 @@ ShowWordCount = false
 ShowToc = false
 TocOpen = true
 canonifyURLs = true
+ShowReadMoreButton = true
 
 # --- CẤU HÌNH PROFILE & WIDGET TÌM KIẾM LIVE ---
 [params.homeInfoParams]
 # Code đã được sửa để chia 2 cột: Trái (Nội dung) - Phải (Logo)
+title = "Welcome.."
 Content = """
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 30px; flex-wrap: wrap;">
-    
 <div style="flex: 1; min-width: 300px;">
 Chào mừng đến với Blog cá nhân của mình. Nơi chia sẻ kiến thức về Lập trình mạng, Java và JavaScript.
 <div style="margin-top:20px;padding:20px;background:#f7f7f7;border-radius:12px;border:1px solid #eee;position:relative;">
@@ -39,10 +37,17 @@ Chào mừng đến với Blog cá nhân của mình. Nơi chia sẻ kiến th�
 </div>
 <ul id="live-search-results" style="list-style:none;padding:0;margin:10px 0 0 0;display:none;background:white;border:1px solid #eee;border-radius:6px;max-height:200px;overflow-y:auto;box-shadow:0 4px 6px rgba(0,0,0,0.05);"></ul>
 </div>
+
+<div style="margin-top:15px; display:flex; gap:10px; flex-wrap:wrap;">
+<span style="font-weight:bold; font-size:0.9rem; align-self:center;">Chủ đề:</span>
+<a href="/categories/java/" style="background:#eee;padding:5px 12px;border-radius:15px;font-size:0.85rem;text-decoration:none;color:#333;font-weight:500;transition:0.2s;">Java</a>
+<a href="/categories/network/" style="background:#eee;padding:5px 12px;border-radius:15px;font-size:0.85rem;text-decoration:none;color:#333;font-weight:500;transition:0.2s;">Network</a>
+<a href="/categories/javascript/" style="background:#eee;padding:5px 12px;border-radius:15px;font-size:0.85rem;text-decoration:none;color:#333;font-weight:500;transition:0.2s;">JS</a>
 </div>
 
-<img src="/assets/meo.png" alt="Logo Blog" 
-style="width: 250px; height: 200px50px; object-fit: cover; border-radius: 0%; box-shadow: 0 0px 0px rgba(0,0,0,0.1); border: 0px solid white;">
+</div>
+
+<img src="/assets/meo.png" alt="Logo Blog" style="width: 100px; height: 200px; object-fit: cover; border-radius: 0%; box-shadow: 0 0px 0px rgba(0,0,0,0.1); border: 0px solid white;">
 
 
 </div>
@@ -73,7 +78,7 @@ responsiveImages = true
 # --- BÌNH LUẬN ---
 [params.comments]
 host = "https://giscus.app"
-repo = "llllluan2534/LTM_BL.github.io"
+repo = "llllluan2534/llllluan2534.github.io"
 repoId = "R_kgDOQuPdjw"
 category = "General"
 categoryId = "DIC_kwDOQuPdj84C0QkL"
@@ -82,29 +87,28 @@ strict = 0
 reactionsEnabled = 1
 emitMetadata = 0
 inputPosition = "bottom"
-theme = "light"
+theme = "preferred_color_scheme"
 lang = "vi"
 loading = "lazy"
 
-# --- MENU ---
+# --- MENU (Đã sửa lỗi ký tự lạ) ---
 [[menu.main]]
-  identifier = "home"
-  name = "Trang Chủ"
-  url = "/"
-  weight = 10
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
 
 [[menu.main]]
-  identifier = "blog"
-  name = "Bài Viết"
-  url = "/posts/"
-  weight = 20
-
+identifier = "blog"
+name = "Blog"
+url = "/posts/"
+weight = 20
 
 [[menu.main]]
-  identifier = "about"
-  name = "Profile"
-  url = "/about/"
-  weight = 30
+identifier = "about"
+name = "Profile"
+url = "/about/"
+weight = 30
 
 [markup]
 [markup.goldmark]

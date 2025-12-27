@@ -3,6 +3,7 @@ title: "Tutorial: Code ứng dụng Chat 'Hello World' trong 5 phút"
 date: 2025-12-21
 draft: false
 tags: ["Java", "Socket", "Project", "Beginner", "Tutorial"]
+categories: ["Java", "Network"]
 cover:
   image: "https://static.wixstatic.com/media/17c24e_cfb842fec21d49258622a115abc20d04~mv2.png/v1/fit/w_1000%2Ch_544%2Cal_c/file.png"
   alt: "Client Server Code"

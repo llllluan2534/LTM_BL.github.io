@@ -1,0 +1,15 @@
+
+<div class="social-icons" {{ with .align}}align="{{.}}" {{- end }}>
+    {{- range site.Params.socialIcons }}
+    <a href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me"
+        title="{{ (.title | default .name) | title }}">
+        {{ partial "svg.html" . }}
+    </a>
+   
+    {{- end }}
+     <audio controls style="height: 25px; width: 200px; outline: none; margin-left: 10px;">
+      <source src="/assets/music.mp4" type="video/mp4" />
+      <source src="/assets/music.mp3" type="audio/mpeg" />
+      Trình duyệt không hỗ trợ nghe nhạc.
+    </audio>
+</div>

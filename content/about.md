@@ -24,22 +24,31 @@ ShowToc: false
 <div style="font-size:1.1rem;color:var(--primary);font-weight:bold;letter-spacing:1px;margin-bottom:10px;text-transform:uppercase">Web Developer</div>
 <h1 style="margin:0 0 20px 0;font-size:3.5rem;line-height:1.1">Bich Luan</h1>
 <p style="opacity:0.9;line-height:1.6;font-size:1.1rem;margin-bottom:30px">
-  Hello! I’m a final-year IT student specializing in <strong>Frontend Development</strong>, 
-  with a focus on building modern user interfaces using <strong>React</strong> 
-  and optimizing performance and user experience.
+Xin chào! Mình là sinh viên năm cuối ngành Công nghệ Thông tin, chuyên về Phát triển Frontend. Mình tập trung xây dựng giao diện hiện đại bằng <strong>React</strong> tối ưu trải nghiệm cũng như hiệu năng cho người dùng.
 </p>
 
-<div style="display:flex;gap:15px">
-<a href="mailto:bichluan253@gmail.com" style="text-decoration:none;background:var(--primary);color:var(--theme);padding:12px 35px;border-radius:50px;font-weight:bold;border:2px solid var(--primary);transition:transform 0.2s">Liên hệ tôi</a>
-<a href="https://github.com/llllluan2534" style="text-decoration:none;border:2px solid var(--primary);color:var(--primary);padding:12px 35px;border-radius:50px;font-weight:bold;transition:transform 0.2s">GitHub</a>
+<div style="display:flex;gap:15px;flex-wrap:wrap">
+<a href="mailto:bichluan253@gmail.com" style="text-decoration:none;background:var(--primary);color:var(--theme);padding:12px 30px;border-radius:50px;font-weight:bold;border:2px solid var(--primary);transition:transform 0.2s">Liên hệ tôi</a>
+<a href="/assets/CV_BichLuan.pdf" target="_blank" style="text-decoration:none;background:transparent;color:var(--primary);padding:12px 30px;border-radius:50px;font-weight:bold;border:2px solid var(--primary);display:flex;align-items:center;gap:8px;transition:all 0.2s"><span></span> GitHub</a>.
+
 </div>
 </div>
 <div style="flex:1;min-width:300px;display:flex;justify-content:center">
-<img src="
-/assets/avt.jpg" alt="Avatar" style="width:350px;height:350px;border-radius:30% 70% 70% 30% / 30% 30% 70% 70%;object-fit:cover;box-shadow:20px 20px 0px var(--primary);border:2px solid var(--border)">
+<img src="/assets/avt.jpg" alt="Avatar" style="width:350px;height:350px;border-radius:30% 70% 70% 30% / 30% 30% 70% 70%;object-fit:cover;box-shadow:20px 20px 0px var(--primary);border:2px solid var(--border)">
 </div>
 </div>
-
+<div style="margin-bottom:80px">
+<h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Học Vấn</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px">
+<div style="background:var(--entry);border-radius:12px;border:1px solid var(--border);padding:20px;display:flex;align-items:center;gap:20px">
+<img src="/assets/logo.png" style="width:60px;height:60px;object-fit:contain;background:#fff;border-radius:8px;padding:5px">
+<div>
+<h3 style="margin:0 0 5px 0;font-size:1.1rem">Trường Công Nghệ Thành Phố Hồ Chí Minh</h3>
+<p style="margin:0;font-size:0.9rem;opacity:0.8">Chuyên ngành: Công Nghệ Phần Mềm</p>
+</div>
+</div>
+</div>
+</div>
 <div style="margin-bottom:80px">
 <h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Projects</h2>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px">
@@ -86,6 +95,30 @@ ShowToc: false
 </div>
 
 <div style="margin-bottom:80px">
+<h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Hành Trình Của Tôi</h2>
+<div style="max-width:800px;margin:0 auto;position:relative;border-left:3px solid var(--border);padding-left:30px">
+<div style="position:relative;margin-bottom:40px">
+<div style="position:absolute;left:-39px;top:0;width:16px;height:16px;border-radius:50%;background:var(--primary);border:4px solid var(--theme)"></div>
+<span style="font-size:0.85rem;font-weight:bold;color:var(--primary);background:var(--entry);padding:4px 10px;border-radius:4px;border:1px solid var(--border)">2025 - Nay</span>
+<h3 style="margin:10px 0 5px 0">Phát triển Fullstack & AI Agent</h3>
+<p style="opacity:0.8;font-size:0.95rem">Tập trung nghiên cứu sâu về tích hợp AI (RAG) vào ứng dụng Web. Xây dựng dự án DocMentor và hoàn thành các chứng chỉ chuyên sâu của Cisco.</p>
+</div>
+<div style="position:relative;margin-bottom:40px">
+<div style="position:absolute;left:-39px;top:0;width:16px;height:16px;border-radius:50%;background:var(--secondary);border:4px solid var(--theme)"></div>
+<span style="font-size:0.85rem;font-weight:bold;color:var(--secondary);background:var(--entry);padding:4px 10px;border-radius:4px;border:1px solid var(--border)">2024</span>
+<h3 style="margin:10px 0 5px 0">Hackathon & Giải thưởng</h3>
+<p style="opacity:0.8;font-size:0.95rem">Tham gia cuộc thi Pione Dream Hackathon. Giành giải Sinh viên 5 tốt cấp Khoa nhờ cân bằng giữa học tập và phong trào.</p>
+</div>
+<div style="position:relative;margin-bottom:40px">
+<div style="position:absolute;left:-39px;top:0;width:16px;height:16px;border-radius:50%;background:var(--secondary);border:4px solid var(--theme)"></div>
+<span style="font-size:0.85rem;font-weight:bold;color:var(--secondary);background:var(--entry);padding:4px 10px;border-radius:4px;border:1px solid var(--border)">2021</span>
+<h3 style="margin:10px 0 5px 0">Bắt đầu tại HUTECH</h3>
+<p style="opacity:0.8;font-size:0.95rem">Bước chân vào chuyên ngành Công nghệ phần mềm. Bắt đầu làm quen với C++, Java và tư duy lập trình nền tảng.</p>
+</div>
+</div>
+</div>
+
+<div style="margin-bottom:80px">
 <h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Kỹ Năng & Công Nghệ</h2>
 <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;max-width:1000px;margin:0 auto">
 <div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center;transition:transform 0.2s">
@@ -110,19 +143,6 @@ ShowToc: false
 </div>
 
 <div style="margin-bottom:80px">
-<h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Học Vấn</h2>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px">
-<div style="background:var(--entry);border-radius:12px;border:1px solid var(--border);padding:20px;display:flex;align-items:center;gap:20px">
-<img src="/assets/logo.png" style="width:60px;height:60px;object-fit:contain;background:#fff;border-radius:8px;padding:5px">
-<div>
-<h3 style="margin:0 0 5px 0;font-size:1.1rem">Trường Công Nghệ Thành Phố Hồ Chí Minh</h3>
-<p style="margin:0;font-size:0.9rem;opacity:0.8">Chuyên ngành: Công Nghệ Phần Mềm</p>
-</div>
-</div>
-</div>
-</div>
-
-<div style="margin-bottom:80px">
 <h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Cuộc Thi & Giải Thưởng</h2>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px">
 <div style="background:var(--entry);border-radius:16px;overflow:hidden;border:1px solid var(--border);transition:transform 0.3s ease">
@@ -131,7 +151,8 @@ ShowToc: false
 </div>
 <div style="padding:25px">
 <h3 style="margin:0 0 10px 0;font-size:1.3rem">Giải Ba - Pione Dream Hackathon</h3>
-<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Cuộc thi AI & Blockchain 2025. Dự án: Pione Game Trace.</p>
+<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Cuộc thi AI & Blockchain 2025. 
+Dự án: Pione Game Trace.</p>
 <div style="border-top:1px solid var(--border);padding-top:15px;display:flex;justify-content:space-between">
 <span style="font-weight:bold;color:var(--primary)">Cấp Trường</span>
 </div>
@@ -173,21 +194,45 @@ ShowToc: false
 <h3 style="margin:0 0 10px 0;font-size:1.2rem">Networking Basics</h3>
 <p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Kiến thức nền tảng về mạng máy tính, giao thức và cách vận hành hệ thống mạng.</p>
 <p style="font-size:0.85rem;color:var(--primary);margin-bottom:15px;font-weight:bold">Cisco | 2025</p>
-<button class="btn-view-cert" onclick="showModal('//LTM_BL.github.io/assets/networking1.png')">Xem Chứng Chỉ</button>
+<button class="btn-view-cert" onclick="showModal('/assets/networking1.png')">Xem Chứng Chỉ</button>
 </div>
 <div class="cert-card">
 <img src="/assets/jse1.png" style="width:80px;height:80px;object-fit:contain;margin-bottom:15px">
 <h3 style="margin:0 0 10px 0;font-size:1.2rem">JavaScript Essentials 1</h3>
 <p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Thiết kế, phát triển và tối ưu hóa chương trình JavaScript căn bản.</p>
 <p style="font-size:0.85rem;color:var(--primary);margin-bottom:15px;font-weight:bold">Cisco / JS Institute | 2025</p>
-<button class="btn-view-cert" onclick="showModal('//LTM_BL.github.io/assets/jse1.jpg')">Xem Chứng Chỉ</button>
+<button class="btn-view-cert" onclick="showModal('/assets/jse1.jpg')">Xem Chứng Chỉ</button>
 </div>
 <div class="cert-card">
 <img src="/assets/jse2.png" style="width:80px;height:80px;object-fit:contain;margin-bottom:15px">
 <h3 style="margin:0 0 10px 0;font-size:1.2rem">JavaScript Essentials 2</h3>
 <p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Nắm vững JS nâng cao, chuẩn bị cho kỳ thi chứng chỉ JSA Certified Associate.</p>
 <p style="font-size:0.85rem;color:var(--primary);margin-bottom:15px;font-weight:bold">Cisco / JS Institute | 2025</p>
-<button class="btn-view-cert" onclick="showModal('//LTM_BL.github.io/assets/jse2.jpg')">Xem Chứng Chỉ</button>
+<button class="btn-view-cert" onclick="showModal('/assets/jse2.jpg')">Xem Chứng Chỉ</button>
+</div>
+</div>
+</div>
+
+<div style="margin-bottom:80px">
+<h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Toolbox</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px">
+<div style="background:var(--entry);padding:25px;border-radius:16px;border:1px solid var(--border)">
+<h3 style="margin-top:0;display:flex;align-items:center;gap:10px">Coding & Terminal</h3>
+<ul style="padding-left:20px;line-height:1.8;opacity:0.9">
+<li><strong>Editor:</strong> VS Code</li>
+<li><strong>Terminal:</strong> Windows Terminal</li>
+<li><strong>Browser:</strong> Edge Dev</li>
+<li><strong>API Tool:</strong> Postman</li>
+</ul>
+</div>
+<div style="background:var(--entry);padding:25px;border-radius:16px;border:1px solid var(--border)">
+<h3 style="margin-top:0;display:flex;align-items:center;gap:10px">Design & Management</h3>
+<ul style="padding-left:20px;line-height:1.8;opacity:0.9">
+<li><strong>Design:</strong> Figma (UI/UX Basic)</li>
+<li><strong>Notes:</strong> Notion</li>
+<li><strong>Version Control:</strong> Git & GitHub Desktop</li>
+<li><strong>Diagram:</strong> Draw.io / Mermaid.js</li>
+</ul>
 </div>
 </div>
 </div>
@@ -195,7 +240,7 @@ ShowToc: false
 <div style="background:var(--entry);padding:40px;text-align:center;border-top:4px solid var(--primary)">
 <h2 style="margin:0 0 20px 0">Liên hệ</h2>
 <div style="display:flex;justify-content:center;gap:30px;flex-wrap:wrap">
-<a href="mailto:email@example.com" style="text-decoration:none;font-weight:bold;display:flex;align-items:center;gap:10px">📧 bichluan253@example.com</a>
+<a href="mailto:bichluan253@gmail.com" style="text-decoration:none;font-weight:bold;display:flex;align-items:center;gap:10px">📧 bichluan253@gmail.com</a>
 <a href="https://github.com/llllluan2534" style="text-decoration:none;font-weight:bold;display:flex;align-items:center;gap:10px">🐈 GitHub</a>
 </div>
 </div>

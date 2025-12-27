@@ -3,6 +3,7 @@ title: "Từ Frontend sang Backend: Hành trình viết API đầu tiên với N
 date: 2025-12-24
 draft: false
 tags: ["JavaScript", "Backend", "NodeJS", "Express", "Tutorial"]
+categories: ["JavaScript"]
 cover:
   image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479"
   relative: false

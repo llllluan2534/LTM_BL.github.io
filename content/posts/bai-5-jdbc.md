@@ -3,6 +3,7 @@ title: "JDBC & MySQL: Biến ứng dụng Chat từ 'Cá vàng' thành 'Voi nh�
 date: 2025-12-22
 draft: false
 tags: ["Java", "Database", "JDBC", "SQL", "Security"]
+categories: ["Java", "Network"]
 cover:
   image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d"
   relative: false

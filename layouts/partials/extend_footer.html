@@ -1,0 +1,44 @@
+<div
+  id="reading-progress-container"
+  style="
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: transparent;
+    z-index: 99999;
+    pointer-events: none;
+  "
+>
+  <div
+    id="reading-progress-bar"
+    style="
+      height: 100%;
+      width: 0%;
+      background: var(--primary);
+      transition: width 0.1s ease;
+      box-shadow: 0 0 10px var(--primary);
+    "
+  ></div>
+</div>
+
+<script>
+  // Lắng nghe sự kiện cuộn chuột
+  window.addEventListener("scroll", function () {
+    // Lấy vị trí hiện tại
+    const winScroll =
+      document.body.scrollTop || document.documentElement.scrollTop;
+    // Tính tổng chiều cao trang web trừ đi chiều cao màn hình hiển thị
+    const height =
+      document.documentElement.scrollHeight -
+      document.documentElement.clientHeight;
+
+    // Tính phần trăm đã cuộn
+    const scrolled = (winScroll / height) * 100;
+
+    // Cập nhật chiều rộng cho thanh tiến trình
+    document.getElementById("reading-progress-bar").style.width =
+      scrolled + "%";
+  });
+</script>

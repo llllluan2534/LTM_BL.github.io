@@ -3,6 +3,7 @@ title: "Tại sao Server cần Đa luồng? Giải quyết bài toán 'Quán cà
 date: 2025-12-22
 draft: false
 tags: ["Java", "Thread", "Concurrency", "Server Architecture"]
+categories: ["Java", "Network"]
 cover:
   image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b"
   relative: false

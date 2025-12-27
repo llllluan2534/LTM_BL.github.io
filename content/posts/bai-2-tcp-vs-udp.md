@@ -3,6 +3,8 @@ title: "TCP và UDP: Cuộc chiến không hồi kết của thế giới mạng
 date: 2025-12-21
 draft: false
 tags: ["Java", "Network", "Theory"]
+
+categories: ["Java", "Network"]
 cover:
   image: "https://gloat.com/wp-content/uploads/2023/10/shutterstock_1998159614.jpg"
   relative: false

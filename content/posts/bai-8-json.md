@@ -3,6 +3,7 @@ title: "JSON: 'Ngôn ngữ chung' của thế giới Internet"
 date: 2025-12-24
 draft: false
 tags: ["JavaScript", "Data", "Network", "Theory"]
+categories: ["Network", "JavaScript"]
 cover:
   image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5"
   relative: false
@@ -97,7 +98,8 @@ try {
 }
 ```
 
-##Lời kết
+## Lời kết
+
 JSON chính là chất keo kết dính của Internet hiện đại. Dù bạn làm Backend hay Frontend, việc nắm vững cách chuyển đổi qua lại giữa Object và JSON String là kỹ năng sinh tồn cơ bản nhất.
 
 Hãy nhớ: Gửi đi thì stringify, Nhận về thì parse. Đơn giản vậy thôi!

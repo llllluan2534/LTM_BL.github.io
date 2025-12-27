@@ -3,6 +3,7 @@ title: "Nhập môn Lập trình mạng với Java: Không khó như bạn nghĩ
 date: 2025-12-20
 draft: false
 tags: ["Java", "Network", "Socket", "Tutorial"]
+categories: ["Java", "Network", "Socket"]
 cover:
   image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8"
   alt: "Network Programming"

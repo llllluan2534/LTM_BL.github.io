@@ -3,6 +3,7 @@ title: "Tâm sự chuyện Async/Await: Cách mình thoát khỏi 'địa ngục
 date: 2025-12-23
 draft: false
 tags: ["JavaScript", "Story", "Experience", "Tips"]
+categories: ["JavaScript"]
 cover:
   image: "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a"
   relative: false

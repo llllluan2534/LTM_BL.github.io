@@ -3,6 +3,7 @@ title: "Tạm biệt XMLHttpRequest, xin chào Fetch API: Cuộc cách mạng tr
 date: 2025-12-23
 draft: false
 tags: ["JavaScript", "Frontend", "API", "Tips"]
+categories: ["JavaScript"]
 cover:
   image: "https://images.unsplash.com/photo-1555099962-4199c345e5dd"
   alt: "Code on screen"

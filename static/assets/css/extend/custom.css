@@ -1,0 +1,39 @@
+/* Container bao quanh trình phát nhạc */
+.social-icons audio {
+  height: 30px;
+  width: 220px;
+  border-radius: 30px; /* Bo tròn mạnh */
+  background-color: #f1f3f5; /* Màu nền xám nhạt sang trọng */
+  border: 1px solid #e9ecef;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Đổ bóng nhẹ */
+  margin-right: 15px;
+  transition: all 0.3s ease;
+}
+
+/* Hiệu ứng khi di chuột vào nhạc */
+.social-icons audio:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px); /* Nhấc nhẹ lên */
+}
+
+/* Căn chỉnh lại hàng icon cho thẳng tắp */
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Căn giữa toàn bộ */
+  gap: 10px; /* Khoảng cách giữa các món */
+  margin-top: 20px;
+}
+.social-icons a svg {
+  transition: all 0.3s ease; /* Chuyển động mượt */
+}
+
+.social-icons a:hover svg {
+  fill: #2980b9; /* Đổi màu xanh (hoặc màu bạn thích) khi hover */
+  transform: translateY(-3px) scale(1.1); /* Bay lên và phóng to nhẹ */
+  filter: drop-shadow(0 5px 5px rgba(41, 128, 185, 0.3)); /* Đổ bóng màu */
+}
+/* Ẩn tiêu đề H1 ở các trang danh sách (như trang Posts) */
+.list .page-header h1 {
+  display: none !important;
+}
