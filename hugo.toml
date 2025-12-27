@@ -88,30 +88,24 @@ loading = "lazy"
 
 # --- MENU ---
 # --- MENU ---
-# Lưu ý: Bắt đầu bằng dấu / và tên Repository của bạn
-
 [[menu.main]]
   identifier = "home"
   name = "Trang Chủ"
-  url = "/LTM_BL.github.io/"        # <--- Sửa thành như này
+  url = "https://llllluan2534.github.io/LTM_BL.github.io/"
   weight = 10
 
 [[menu.main]]
   identifier = "blog"
   name = "Bài Viết"
-  url = "/LTM_BL.github.io/posts/"  # <--- Hugo sẽ hiểu đây là link nội bộ -> Mất Icon
+  url = "https://llllluan2534.github.io/LTM_BL.github.io/posts/"
   weight = 20
 
-[[menu.main]]
-  identifier = "search"
-  name = "🔍"
-  url = "/LTM_BL.github.io/search/"
-  weight = 25
+
 
 [[menu.main]]
   identifier = "about"
   name = "Profile"
-  url = "/LTM_BL.github.io/about/"
+  url = "https://llllluan2534.github.io/LTM_BL.github.io/about/"
   weight = 30
 
 [markup]
