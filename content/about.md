@@ -41,7 +41,7 @@ Xin chào! Mình là sinh viên năm cuối ngành Công nghệ Thông tin, chuy
 <h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Học Vấn</h2>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px">
 <div style="background:var(--entry);border-radius:12px;border:1px solid var(--border);padding:20px;display:flex;align-items:center;gap:20px">
-<img src="/assets/logo.png" style="width:60px;height:60px;object-fit:contain;background:#fff;border-radius:8px;padding:5px">
+<img src="/assets/hutech.png" style="width:60px;height:60px;object-fit:contain;background:#fff;border-radius:8px;padding:5px">
 <div>
 <h3 style="margin:0 0 5px 0;font-size:1.1rem">Trường Công Nghệ Thành Phố Hồ Chí Minh</h3>
 <p style="margin:0;font-size:0.9rem;opacity:0.8">Chuyên ngành: Công Nghệ Phần Mềm</p>
@@ -110,7 +110,7 @@ Xin chào! Mình là sinh viên năm cuối ngành Công nghệ Thông tin, chuy
 <img src="/assets/java.png" alt="JS" style="width:50px;height:50px;object-fit:contain">
 </div>
 <div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center;transition:transform 0.2s">
-<img src="/assets/Github-Logo.png" alt="GitHub" style="width:50px;height:50px;object-fit:contain">
+<img src="/assets/GitHub-Logo.png" alt="GitHub" style="width:50px;height:50px;object-fit:contain">
 </div>
 <div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center;transition:transform 0.2s">
 <img src="/assets/git-logo.png" alt="Git" style="width:50px;height:50px;object-fit:contain">
