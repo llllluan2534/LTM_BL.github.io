@@ -36,7 +36,7 @@ ShowToc: false
 </div>
 <div style="flex:1;min-width:300px;display:flex;justify-content:center">
 <img src="
-/LTM_BL.github.io/LTM_BL.github.io/assets/avt.jpg" alt="Avatar" style="width:350px;height:350px;border-radius:30% 70% 70% 30% / 30% 30% 70% 70%;object-fit:cover;box-shadow:20px 20px 0px var(--primary);border:2px solid var(--border)">
+/LTM_BL.github.io/assets/avt.jpg" alt="Avatar" style="width:350px;height:350px;border-radius:30% 70% 70% 30% / 30% 30% 70% 70%;object-fit:cover;box-shadow:20px 20px 0px var(--primary);border:2px solid var(--border)">
 </div>
 </div>
 
@@ -45,7 +45,7 @@ ShowToc: false
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px">
 <div style="background:var(--entry);border-radius:16px;overflow:hidden;border:1px solid var(--border);transition:transform 0.3s ease">
 <div style="height:180px;overflow:hidden">
-<img src="//LTM_BL.github.io/LTM_BL.github.io/assets/project-cinema.jpg" alt="Giao diện hệ thống bán vé" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
+<img src="/LTM_BL.github.io/assets/project-cinema.jpg" alt="Giao diện hệ thống bán vé" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
 </div>
 <div style="padding:25px">
 <h3 style="margin:0 0 10px 0;font-size:1.3rem">Hệ thống bán vé rạp phim</h3>
@@ -58,7 +58,7 @@ ShowToc: false
 </div>
 <div style="background:var(--entry);border-radius:16px;overflow:hidden;border:1px solid var(--border);transition:transform 0.3s ease">
 <div style="height:180px;overflow:hidden">
-<img src="//LTM_BL.github.io/LTM_BL.github.io/assets/docmentor.png" alt="Giao diện DocMentor AI" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
+<img src="/LTM_BL.github.io/assets/docmentor.png" alt="Giao diện DocMentor AI" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
 </div>
 <div style="padding:25px">
 <h3 style="margin:0 0 10px 0;font-size:1.3rem">DocMentor: AI Agent</h3>
@@ -89,22 +89,22 @@ ShowToc: false
 <h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Kỹ Năng & Công Nghệ</h2>
 <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;max-width:1000px;margin:0 auto">
 <div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center;transition:transform 0.2s">
-<img src="//LTM_BL.github.io/LTM_BL.github.io/assets/Java-Logo.png" alt="Java" style="width:50px;height:50px;object-fit:contain">
+<img src="/LTM_BL.github.io/assets/Java-Logo.png" alt="Java" style="width:50px;height:50px;object-fit:contain">
 </div>
 <div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center;transition:transform 0.2s">
-<img src="//LTM_BL.github.io/LTM_BL.github.io/assets/spring-boot.png" alt="Spring" style="width:50px;height:50px;object-fit:contain">
+<img src="/LTM_BL.github.io/assets/spring-boot.png" alt="Spring" style="width:50px;height:50px;object-fit:contain">
 </div>
 <div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center;transition:transform 0.2s">
-<img src="//LTM_BL.github.io/LTM_BL.github.io/assets/mysql-logo.png" alt="SQL" style="width:50px;height:50px;object-fit:contain">
+<img src="/LTM_BL.github.io/assets/mysql-logo.png" alt="SQL" style="width:50px;height:50px;object-fit:contain">
 </div>
 <div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center;transition:transform 0.2s">
-<img src="//LTM_BL.github.io/LTM_BL.github.io/assets/java.png" alt="JS" style="width:50px;height:50px;object-fit:contain">
+<img src="/LTM_BL.github.io/assets/java.png" alt="JS" style="width:50px;height:50px;object-fit:contain">
 </div>
 <div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center;transition:transform 0.2s">
-<img src="//LTM_BL.github.io/LTM_BL.github.io/assets/Github-Logo.png" alt="GitHub" style="width:50px;height:50px;object-fit:contain">
+<img src="/LTM_BL.github.io/assets/Github-Logo.png" alt="GitHub" style="width:50px;height:50px;object-fit:contain">
 </div>
 <div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center;transition:transform 0.2s">
-<img src="//LTM_BL.github.io/LTM_BL.github.io/assets/git-logo.png" alt="Git" style="width:50px;height:50px;object-fit:contain">
+<img src="/LTM_BL.github.io/assets/git-logo.png" alt="Git" style="width:50px;height:50px;object-fit:contain">
 </div>
 </div>
 </div>
@@ -113,7 +113,7 @@ ShowToc: false
 <h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Học Vấn</h2>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px">
 <div style="background:var(--entry);border-radius:12px;border:1px solid var(--border);padding:20px;display:flex;align-items:center;gap:20px">
-<img src="//LTM_BL.github.io/LTM_BL.github.io/assets/logo.png" style="width:60px;height:60px;object-fit:contain;background:#fff;border-radius:8px;padding:5px">
+<img src="/LTM_BL.github.io/assets/logo.png" style="width:60px;height:60px;object-fit:contain;background:#fff;border-radius:8px;padding:5px">
 <div>
 <h3 style="margin:0 0 5px 0;font-size:1.1rem">Trường Công Nghệ Thành Phố Hồ Chí Minh</h3>
 <p style="margin:0;font-size:0.9rem;opacity:0.8">Chuyên ngành: Công Nghệ Phần Mềm</p>
@@ -127,7 +127,7 @@ ShowToc: false
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px">
 <div style="background:var(--entry);border-radius:16px;overflow:hidden;border:1px solid var(--border);transition:transform 0.3s ease">
 <div style="height:250px;overflow:hidden">
-<img src="//LTM_BL.github.io/LTM_BL.github.io/assets/pione.jpg" alt="Pione Dream" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
+<img src="/LTM_BL.github.io/assets/pione.jpg" alt="Pione Dream" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
 </div>
 <div style="padding:25px">
 <h3 style="margin:0 0 10px 0;font-size:1.3rem">Giải Ba - Pione Dream Hackathon</h3>
@@ -139,7 +139,7 @@ ShowToc: false
 </div>
 <div style="background:var(--entry);border-radius:16px;overflow:hidden;border:1px solid var(--border);transition:transform 0.3s ease">
 <div style="height:250px;overflow:hidden">
-<img src="//LTM_BL.github.io/LTM_BL.github.io/assets/genz.jpg" alt="GenZ Thinking" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
+<img src="/LTM_BL.github.io/assets/genz.jpg" alt="GenZ Thinking" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
 </div>
 <div style="padding:25px">
 <h3 style="margin:0 0 10px 0;font-size:1.3rem">Giải Ba - GenZ Thinking</h3>
@@ -151,7 +151,7 @@ ShowToc: false
 </div>
 <div style="background:var(--entry);border-radius:16px;overflow:hidden;border:1px solid var(--border);transition:transform 0.3s ease">
 <div style="height:250px;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#fff">
-<img src="//LTM_BL.github.io/LTM_BL.github.io/assets/svtb.png" alt="Học bổng" style="width:100%;height:100%;object-fit:contain">
+<img src="/LTM_BL.github.io/assets/svtb.png" alt="Học bổng" style="width:100%;height:100%;object-fit:contain">
 </div>
 <div style="padding:25px">
 <h3 style="margin:0 0 10px 0;font-size:1.3rem">Sinh viên Tiêu biểu & 5 Tốt</h3>
@@ -169,21 +169,21 @@ ShowToc: false
 <h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Chứng Chỉ Chuyên Môn</h2>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px">
 <div class="cert-card">
-<img src="//LTM_BL.github.io/LTM_BL.github.io/assets/networking.png" style="width:80px;height:80px;object-fit:contain;margin-bottom:15px">
+<img src="/LTM_BL.github.io/assets/networking.png" style="width:80px;height:80px;object-fit:contain;margin-bottom:15px">
 <h3 style="margin:0 0 10px 0;font-size:1.2rem">Networking Basics</h3>
 <p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Kiến thức nền tảng về mạng máy tính, giao thức và cách vận hành hệ thống mạng.</p>
 <p style="font-size:0.85rem;color:var(--primary);margin-bottom:15px;font-weight:bold">Cisco | 2025</p>
 <button class="btn-view-cert" onclick="showModal('//LTM_BL.github.io/LTM_BL.github.io/assets/networking1.png')">Xem Chứng Chỉ</button>
 </div>
 <div class="cert-card">
-<img src="//LTM_BL.github.io/LTM_BL.github.io/assets/jse1.png" style="width:80px;height:80px;object-fit:contain;margin-bottom:15px">
+<img src="/LTM_BL.github.io/assets/jse1.png" style="width:80px;height:80px;object-fit:contain;margin-bottom:15px">
 <h3 style="margin:0 0 10px 0;font-size:1.2rem">JavaScript Essentials 1</h3>
 <p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Thiết kế, phát triển và tối ưu hóa chương trình JavaScript căn bản.</p>
 <p style="font-size:0.85rem;color:var(--primary);margin-bottom:15px;font-weight:bold">Cisco / JS Institute | 2025</p>
 <button class="btn-view-cert" onclick="showModal('//LTM_BL.github.io/LTM_BL.github.io/assets/jse1.jpg')">Xem Chứng Chỉ</button>
 </div>
 <div class="cert-card">
-<img src="//LTM_BL.github.io/LTM_BL.github.io/assets/jse2.png" style="width:80px;height:80px;object-fit:contain;margin-bottom:15px">
+<img src="//LTM_BL.github.io/assets/jse2.png" style="width:80px;height:80px;object-fit:contain;margin-bottom:15px">
 <h3 style="margin:0 0 10px 0;font-size:1.2rem">JavaScript Essentials 2</h3>
 <p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Nắm vững JS nâng cao, chuẩn bị cho kỳ thi chứng chỉ JSA Certified Associate.</p>
 <p style="font-size:0.85rem;color:var(--primary);margin-bottom:15px;font-weight:bold">Cisco / JS Institute | 2025</p>
