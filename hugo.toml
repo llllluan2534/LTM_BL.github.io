@@ -30,14 +30,17 @@ Title = " "
 Content = """
 <div style="min-height:80vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding-top:20px">
 <img src="/assets/avt.jpg" alt="Avatar" style="width:250px;height:250px;border-radius:50%;object-fit:cover;box-shadow:0 10px 25px rgba(0,0,0,0.1);border:4px solid white;margin-bottom:30px">
-<div style="font-size:1rem;color:var(--primary);font-weight:bold;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px">Luu Tran Thi Bich Luan</div>
-<h1 style="font-size:3.5rem;margin:0 0 20px 0;line-height:1.1">Frontend Developer</h1>
-<p style="font-style:italic;opacity:0.8;max-width:600px;margin:0 auto 40px auto;font-size:1.1rem">"Không ngừng nỗ lực để phiên bản ngày mai tốt hơn hôm nay."</p>
-<div style="display:flex;gap:20px;flex-wrap:wrap;justify-content:center">
+<div style="font-size:1rem;color:var(--primary);font-weight:bold;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px"></div>
+<h1 style="font-size:3.5rem;margin:0 0 20px 0;line-height:1.1">Lưu Trần Thị Bích Luận</h1>
+<p style="font-style:italic;opacity:0.8;max-width:600px;margin:0 auto 40px auto;font-size:1.3rem">"Không ngừng nỗ lực để phiên bản ngày mai tốt hơn hôm nay."</p>
+<div style="display:flex;gap:30px;flex-wrap:wrap;justify-content:center">
 <a href="/posts/" style="text-decoration:none;background:var(--primary);color:var(--theme);padding:15px 40px;border-radius:50px;font-weight:bold;font-size:1.1rem;border:2px solid var(--primary);transition:transform 0.2s">Khám phá Blog</a>
 <a href="/about/" style="text-decoration:none;background:transparent;color:var(--primary);padding:15px 40px;border-radius:50px;font-weight:bold;font-size:1.1rem;border:2px solid var(--primary);transition:all 0.2s">About Me</a>
 </div>
+<div style="height:120px"></div>
 </div>
+
+
 
 
 """
