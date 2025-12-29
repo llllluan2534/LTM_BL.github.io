@@ -208,3 +208,22 @@ ShowToc: false
 <script>
 var modal=document.getElementById("certModal");var modalImg=document.getElementById("modalImg");function showModal(src){modal.style.display="flex";modalImg.src=src}function closeModal(){modal.style.display="none"}window.onclick=function(event){if(event.target==modal){modal.style.display="none"}};
 </script>
+<div id="profile-player" style="position:fixed;bottom:20px;left:50%;transform:translateX(-50%);z-index:9999;background:var(--entry);padding:8px 15px;border-radius:50px;box-shadow:0 5px 20px rgba(0,0,0,0.15);border:1px solid var(--border);display:flex;align-items:center;gap:15px;backdrop-filter:blur(10px);">
+    <div style="display:flex;align-items:center;gap:10px;padding-right:10px;border-right:1px solid var(--border)">
+        <span style="animation:spin 3s linear infinite;font-size:20px;display:block"></span>
+        <div style="font-size:0.85rem;font-weight:bold;color:var(--primary);white-space:nowrap;overflow:hidden;width:80px;">
+            <div style="display:inline-block;animation:marquee 5s linear infinite">Wildest Dream</div>
+        </div>
+    </div>
+    <audio controls style="height:25px;width:150px;outline:none">
+        <source src="/assets/music.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="document.getElementById('profile-player').style.display='none'" style="background:none;border:none;cursor:pointer;font-size:1.1rem;color:var(--secondary);padding:0 5px">×</button>
+</div>
+
+<style>
+@keyframes spin{100%{transform:rotate(360deg)}}
+@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-100%)}}
+/* Ẩn player trên mobile nếu quá chật */
+@media(max-width:400px){#profile-player{width:90%;justify-content:space-between}#profile-player div:first-child{display:none}}
+</style>
