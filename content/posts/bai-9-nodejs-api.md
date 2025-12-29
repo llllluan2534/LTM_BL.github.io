@@ -140,8 +140,9 @@ Từ giờ, thay vì gõ node app.js, hãy gõ:
 ```Bash
 
 nodemon app.js
-Thằng nodemon này rất thông minh, nó sẽ canh chừng file code của bạn. Hễ bạn bấm Save (Lưu file) là nó tự khởi động lại Server ngay lập tức. Cực kỳ tiện lợi!
 ```
+
+Thằng nodemon này rất thông minh, nó sẽ canh chừng file code của bạn. Hễ bạn bấm Save (Lưu file) là nó tự khởi động lại Server ngay lập tức. Cực kỳ tiện lợi!
 
 ## Lời kết
 

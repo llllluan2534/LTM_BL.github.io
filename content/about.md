@@ -16,180 +16,159 @@ ShowToc: false
 .close-modal:hover{color:var(--primary)}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 @keyframes zoomIn{from{transform:scale(0.8)}to{transform:scale(1)}}
+.scroll-down{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);animation:bounce 2s infinite;opacity:0.6;cursor:pointer;font-size:2rem}
+@keyframes bounce{0%,20%,50%,80%,100%{transform:translateY(0) translateX(-50%)}40%{transform:translateY(-10px) translateX(-50%)}60%{transform:translateY(-5px) translateX(-50%)}}
 </style>
 
-<div style="max-width:100%">
-<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:40px;margin-bottom:80px;padding-top:20px">
+<div style="min-height:90vh;display:flex;flex-direction:column;justify-content:flex-start;padding-top:20px;position:relative;max-width:100%">
+<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:40px">
 <div style="flex:1;min-width:300px">
-<div style="font-size:1.1rem;color:var(--primary);font-weight:bold;letter-spacing:1px;margin-bottom:10px;text-transform:uppercase">Web Developer</div>
-<h1 style="margin:0 0 20px 0;font-size:3.5rem;line-height:1.1">Bich Luan</h1>
-<p style="opacity:0.9;line-height:1.6;font-size:1.1rem;margin-bottom:30px">
-Xin chào! Mình là sinh viên năm cuối ngành Công nghệ Thông tin, chuyên về Phát triển Frontend. Mình tập trung xây dựng giao diện hiện đại bằng <strong>React</strong> tối ưu trải nghiệm cũng như hiệu năng cho người dùng.
-</p>
-
+<div style="font-size:1.1rem;color:var(--primary);font-weight:bold;letter-spacing:1px;margin-bottom:10px;text-transform:uppercase">Luu Tran Thi Bich Luan</div>
+<h1 style="font-size:1rem;margin:0 0 10px 0;line-height:1.2">Frontend Developer<br><span style="color:var(--primary);font-size:2rem"></span></h1>
+<p style="margin-top:25px;font-style:italic;font-size:1.1rem;opacity:0.8;border-left:4px solid var(--primary);padding-left:15px;line-height:1.5">"Không ngừng nỗ lực để phiên bản ngày mai tốt hơn hôm nay."</p>
+<p style="opacity:0.9;line-height:1.6;font-size:1.1rem;margin:30px 0">Xin chào! Mình là Lưu Trần Thị Bích Luận, sinh viên năm cuối ngành Công nghệ Thông tin trường đại học Công nghệ TP.HCM. Mình tập trung xây dựng giao diện hiện đại bằng <strong>React</strong>, tối ưu trải nghiệm cũng như hiệu năng cho người dùng.</p>
 <div style="display:flex;gap:15px;flex-wrap:wrap">
-<a href="mailto:bichluan253@gmail.com" style="text-decoration:none;background:var(--primary);color:var(--theme);padding:12px 30px;border-radius:50px;font-weight:bold;border:2px solid var(--primary);transition:transform 0.2s">Liên hệ tôi</a>
-<a href="/assets/CV_BichLuan.pdf" target="_blank" style="text-decoration:none;background:transparent;color:var(--primary);padding:12px 30px;border-radius:50px;font-weight:bold;border:2px solid var(--primary);display:flex;align-items:center;gap:8px;transition:all 0.2s"><span></span> GitHub</a>.
-
+<a href="mailto:bichluan253@gmail.com" style="text-decoration:none;background:var(--primary);color:var(--theme);padding:14px 35px;border-radius:50px;font-weight:bold;border:2px solid var(--primary);transition:transform 0.2s">Liên hệ tôi</a>
+<a href="/assets/CV_BichLuan.pdf" target="_blank" style="text-decoration:none;background:transparent;color:var(--primary);padding:14px 35px;border-radius:50px;font-weight:bold;border:2px solid var(--primary);display:flex;align-items:center;gap:8px;transition:all 0.2s">GitHub</a>
 </div>
 </div>
 <div style="flex:1;min-width:300px;display:flex;justify-content:center">
-<img src="/assets/avt.jpg" alt="Avatar" style="width:350px;height:350px;border-radius:30% 70% 70% 30% / 30% 30% 70% 70%;object-fit:cover;box-shadow:20px 20px 0px var(--primary);border:2px solid var(--border)">
+<img src="/assets/avt.jpg" alt="Avatar" style="width:380px;height:380px;border-radius:30% 70% 70% 30% / 30% 30% 70% 70%;object-fit:cover;box-shadow:20px 20px 0px var(--primary);border:2px solid var(--border)">
 </div>
 </div>
-<div style="margin-bottom:80px">
-<h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Học Vấn</h2>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px">
-<div style="background:var(--entry);border-radius:12px;border:1px solid var(--border);padding:20px;display:flex;align-items:center;gap:20px">
-<img src="/assets/hutech.png" style="width:60px;height:60px;object-fit:contain;background:#fff;border-radius:8px;padding:5px">
-<div>
-<h3 style="margin:0 0 5px 0;font-size:1.1rem">Trường Công Nghệ Thành Phố Hồ Chí Minh</h3>
-<p style="margin:0;font-size:0.9rem;opacity:0.8">Chuyên ngành: Công Nghệ Phần Mềm</p>
+<div class="scroll-down" onclick="window.scrollBy({top:window.innerHeight,behavior:'smooth'})">scroll</div>
 </div>
-</div>
-</div>
-</div>
-<div style="margin-bottom:80px">
+
+<div style="padding-top:50px">
+<div style="margin-bottom:100px">
 <h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Projects</h2>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px">
 <div style="background:var(--entry);border-radius:16px;overflow:hidden;border:1px solid var(--border);transition:transform 0.3s ease">
 <div style="height:180px;overflow:hidden">
-<img src="/assets/project-cinema.jpg" alt="Giao diện hệ thống bán vé" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
+<img src="/assets/project-cinema.jpg" alt="Cinema Project" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
 </div>
 <div style="padding:25px">
 <h3 style="margin:0 0 10px 0;font-size:1.3rem">Hệ thống bán vé rạp phim</h3>
-<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Ứng dụng quản lý lịch chiếu, hỗ trợ khách hàng đặt vé, chọn ghế realtime và thanh toán.</p>
+<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Ứng dụng quản lý lịch chiếu, đặt vé, chọn ghế realtime và thanh toán.</p>
 <div style="border-top:1px solid var(--border);padding-top:15px;display:flex;justify-content:space-between">
-<span style="font-weight:bold;color:var(--primary)">JavaScripts / SQL</span>
+<span style="font-weight:bold;color:var(--primary)">JS / SQL</span>
 <a href="https://github.com/llllluan2534/Project_MovieTicketBooking_NodeJS-" style="font-weight:bold;text-decoration:none">Xem Code ➔</a>
 </div>
 </div>
 </div>
 <div style="background:var(--entry);border-radius:16px;overflow:hidden;border:1px solid var(--border);transition:transform 0.3s ease">
 <div style="height:180px;overflow:hidden">
-<img src="/assets/docmentor.png" alt="Giao diện DocMentor AI" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
+<img src="/assets/docmentor.png" alt="DocMentor AI" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
 </div>
 <div style="padding:25px">
 <h3 style="margin:0 0 10px 0;font-size:1.3rem">DocMentor: AI Agent</h3>
-<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Trợ lý AI giúp truy xuất, phân tích và tóm tắt kiến thức từ giáo trình, tài liệu học tập.</p>
+<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Trợ lý AI giúp truy xuất, phân tích và tóm tắt kiến thức từ tài liệu.</p>
 <div style="border-top:1px solid var(--border);padding-top:15px;display:flex;justify-content:space-between">
-<span style="font-weight:bold;color:var(--primary)">AI / RAG / TypeScript</span>
-<a href="https://doc-mentor-one.vercel.app/" style="font-weight:bold;text-decoration:none">web ➔</a>
+<span style="font-weight:bold;color:var(--primary)">AI / RAG</span>
+<a href="https://doc-mentor-one.vercel.app/" style="font-weight:bold;text-decoration:none">Demo ➔</a>
 </div>
 </div>
 </div>
 <div style="background:var(--entry);border-radius:16px;overflow:hidden;border:1px solid var(--border);transition:transform 0.3s ease">
 <div style="height:180px;overflow:hidden">
-<img src="/assets/blog.png" alt="Giao diện Blog cá nhân" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
+<img src="/assets/blog.png" alt="Blog Project" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
 </div>
 <div style="padding:25px">
 <h3 style="margin:0 0 10px 0;font-size:1.3rem">Blog Lập trình mạng</h3>
 <p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px">Website cá nhân Hugo, Markdown, GitHub Pages.</p>
 <div style="border-top:1px solid var(--border);padding-top:15px;display:flex;justify-content:space-between">
 <span style="font-weight:bold;color:var(--primary)">Hugo / HTML</span>
-<a href="https://llllluan2534.github.io/" style="font-weight:bold;text-decoration:none">Xem Demo ➔</a>
+<a href="https://llllluan2534.github.io/" style="font-weight:bold;text-decoration:none">Xem Web ➔</a>
 </div>
 </div>
 </div>
 </div>
 </div>
 
-<div style="margin-bottom:80px">
+<div style="margin-bottom:100px">
 <h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Kỹ Năng & Công Nghệ</h2>
 <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;max-width:1000px;margin:0 auto">
-<div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center;transition:transform 0.2s">
-<img src="/assets/Java-Logo.png" alt="Java" style="width:50px;height:50px;object-fit:contain">
+<div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center"><img src="/assets/Java-Logo.png" style="width:50px;height:50px;object-fit:contain"></div>
+<div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center"><img src="/assets/spring-boot.png" style="width:50px;height:50px;object-fit:contain"></div>
+<div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center"><img src="/assets/mysql-logo.png" style="width:50px;height:50px;object-fit:contain"></div>
+<div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center"><img src="/assets/java.png" style="width:50px;height:50px;object-fit:contain"></div>
+<div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center"><img src="/assets/GitHub-Logo.png" style="width:50px;height:50px;object-fit:contain"></div>
+<div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center"><img src="/assets/git-logo.png" style="width:50px;height:50px;object-fit:contain"></div>
 </div>
-<div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center;transition:transform 0.2s">
-<img src="/assets/spring-boot.png" alt="Spring" style="width:50px;height:50px;object-fit:contain">
 </div>
-<div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center;transition:transform 0.2s">
-<img src="/assets/mysql-logo.png" alt="SQL" style="width:50px;height:50px;object-fit:contain">
+
+<div style="margin-bottom:100px">
+<h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Học Vấn</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px">
+<div style="background:var(--entry);border-radius:12px;border:1px solid var(--border);padding:20px;display:flex;align-items:center;gap:20px">
+<img src="/assets/hutech.png" style="width:80px;height:80px;object-fit:contain;background:#fff;border-radius:8px;padding:5px">
+<div>
+<h3 style="margin:0 0 5px 0;font-size:1.3rem">Trường Công Nghệ TP.HCM</h3>
+<p style="margin:0;font-size:1rem;opacity:0.9;font-weight:bold">Chuyên ngành: Công Nghệ Phần Mềm</p>
+<p style="margin:5px 0 0 0;font-size:0.9rem;opacity:0.7">2021 - 2025 (Dự kiến)</p>
 </div>
-<div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center;transition:transform 0.2s">
-<img src="/assets/java.png" alt="JS" style="width:50px;height:50px;object-fit:contain">
-</div>
-<div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center;transition:transform 0.2s">
-<img src="/assets/GitHub-Logo.png" alt="GitHub" style="width:50px;height:50px;object-fit:contain">
-</div>
-<div style="background:var(--entry);border:1px solid var(--border);padding:15px;border-radius:12px;width:110px;height:110px;display:flex;align-items:center;justify-content:center;transition:transform 0.2s">
-<img src="/assets/git-logo.png" alt="Git" style="width:50px;height:50px;object-fit:contain">
 </div>
 </div>
 </div>
 
-<div style="margin-bottom:80px">
+<div style="margin-bottom:100px">
 <h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Cuộc Thi & Giải Thưởng</h2>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px">
-<div style="background:var(--entry);border-radius:16px;overflow:hidden;border:1px solid var(--border);transition:transform 0.3s ease">
-<div style="height:250px;overflow:hidden">
-<img src="/assets/pione.jpg" alt="Pione Dream" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
-</div>
+<div style="background:var(--entry);border-radius:16px;overflow:hidden;border:1px solid var(--border)">
+<div style="height:220px;overflow:hidden"><img src="/assets/pione.jpg" style="width:100%;height:100%;object-fit:cover"></div>
 <div style="padding:25px">
 <h3 style="margin:0 0 10px 0;font-size:1.3rem">Giải Ba - Pione Dream Hackathon</h3>
-<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Cuộc thi AI & Blockchain 2025. 
-Dự án: Pione Game Trace.</p>
-<div style="border-top:1px solid var(--border);padding-top:15px;display:flex;justify-content:space-between">
-<span style="font-weight:bold;color:var(--primary)">Cấp Trường</span>
+<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px">Cuộc thi AI & Blockchain 2025.</p>
+<div style="border-top:1px solid var(--border);padding-top:15px"><span style="font-weight:bold;color:var(--primary)">Cấp Trường</span></div>
 </div>
 </div>
-</div>
-<div style="background:var(--entry);border-radius:16px;overflow:hidden;border:1px solid var(--border);transition:transform 0.3s ease">
-<div style="height:250px;overflow:hidden">
-<img src="/assets/genz.jpg" alt="GenZ Thinking" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease">
-</div>
+<div style="background:var(--entry);border-radius:16px;overflow:hidden;border:1px solid var(--border)">
+<div style="height:220px;overflow:hidden"><img src="/assets/genz.jpg" style="width:100%;height:100%;object-fit:cover"></div>
 <div style="padding:25px">
 <h3 style="margin:0 0 10px 0;font-size:1.3rem">Giải Ba - GenZ Thinking</h3>
-<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Cuộc thi ý tưởng khởi nghiệp và tư duy sáng tạo 2023.</p>
-<div style="border-top:1px solid var(--border);padding-top:15px;display:flex;justify-content:space-between">
-<span style="font-weight:bold;color:var(--primary)">Học Thuật</span>
+<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px">Cuộc thi ý tưởng khởi nghiệp 2023.</p>
+<div style="border-top:1px solid var(--border);padding-top:15px"><span style="font-weight:bold;color:var(--primary)">Học Thuật</span></div>
 </div>
 </div>
-</div>
-<div style="background:var(--entry);border-radius:16px;overflow:hidden;border:1px solid var(--border);transition:transform 0.3s ease">
-<div style="height:250px;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#fff">
-<img src="/assets/svtb.png" alt="Học bổng" style="width:100%;height:100%;object-fit:contain">
-</div>
+<div style="background:var(--entry);border-radius:16px;overflow:hidden;border:1px solid var(--border)">
+<div style="height:220px;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center"><img src="/assets/svtb.png" style="width:100%;height:100%;object-fit:contain"></div>
 <div style="padding:25px">
 <h3 style="margin:0 0 10px 0;font-size:1.3rem">Sinh viên Tiêu biểu & 5 Tốt</h3>
-<p style="font-size:0.9rem;opacity:0.8;margin-bottom:10px;line-height:1.5"><strong>Sinh viên 5 tốt:</strong> Cấp khoa - 2024</p>
-<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5"><strong>Sinh viên tiêu biểu:</strong> Cấp khoa - 2025</p>
-<div style="border-top:1px solid var(--border);padding-top:15px;display:flex;justify-content:space-between">
-<span style="font-weight:bold;color:var(--primary)">Thành Tích</span>
-</div>
+<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px">Đạt danh hiệu Sinh viên 5 tốt 2024.</p>
+<div style="border-top:1px solid var(--border);padding-top:15px"><span style="font-weight:bold;color:var(--primary)">Thành Tích</span></div>
 </div>
 </div>
 </div>
 </div>
 
-<div style="margin-bottom:80px">
+<div style="margin-bottom:100px">
 <h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Chứng Chỉ Chuyên Môn</h2>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px">
 <div class="cert-card">
 <img src="/assets/networking.png" style="width:80px;height:80px;object-fit:contain;margin-bottom:15px">
 <h3 style="margin:0 0 10px 0;font-size:1.2rem">Networking Basics</h3>
-<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Kiến thức nền tảng về mạng máy tính, giao thức và cách vận hành hệ thống mạng.</p>
+<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px">Kiến thức nền tảng về mạng máy tính.</p>
 <p style="font-size:0.85rem;color:var(--primary);margin-bottom:15px;font-weight:bold">Cisco | 2025</p>
 <button class="btn-view-cert" onclick="showModal('/assets/networking1.png')">Xem Chứng Chỉ</button>
 </div>
 <div class="cert-card">
 <img src="/assets/jse1.png" style="width:80px;height:80px;object-fit:contain;margin-bottom:15px">
 <h3 style="margin:0 0 10px 0;font-size:1.2rem">JavaScript Essentials 1</h3>
-<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Thiết kế, phát triển và tối ưu hóa chương trình JavaScript căn bản.</p>
-<p style="font-size:0.85rem;color:var(--primary);margin-bottom:15px;font-weight:bold">Cisco / JS Institute | 2025</p>
+<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px">Lập trình JS căn bản.</p>
+<p style="font-size:0.85rem;color:var(--primary);margin-bottom:15px;font-weight:bold">Cisco / JS Institute</p>
 <button class="btn-view-cert" onclick="showModal('/assets/jse1.jpg')">Xem Chứng Chỉ</button>
 </div>
 <div class="cert-card">
 <img src="/assets/jse2.png" style="width:80px;height:80px;object-fit:contain;margin-bottom:15px">
 <h3 style="margin:0 0 10px 0;font-size:1.2rem">JavaScript Essentials 2</h3>
-<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px;line-height:1.5">Nắm vững JS nâng cao, chuẩn bị cho kỳ thi chứng chỉ JSA Certified Associate.</p>
-<p style="font-size:0.85rem;color:var(--primary);margin-bottom:15px;font-weight:bold">Cisco / JS Institute | 2025</p>
+<p style="font-size:0.9rem;opacity:0.8;margin-bottom:20px">Lập trình JS nâng cao.</p>
+<p style="font-size:0.85rem;color:var(--primary);margin-bottom:15px;font-weight:bold">Cisco / JS Institute</p>
 <button class="btn-view-cert" onclick="showModal('/assets/jse2.jpg')">Xem Chứng Chỉ</button>
 </div>
 </div>
 </div>
 
-<div style="margin-bottom:80px">
+<div style="margin-bottom:100px">
 <h2 style="text-align:center;font-size:2rem;margin-bottom:40px;color:var(--primary)">Toolbox</h2>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px">
 <div style="background:var(--entry);padding:25px;border-radius:16px;border:1px solid var(--border)">
@@ -206,18 +185,18 @@ Dự án: Pione Game Trace.</p>
 <ul style="padding-left:20px;line-height:1.8;opacity:0.9">
 <li><strong>Design:</strong> Figma (UI/UX Basic)</li>
 <li><strong>Notes:</strong> Notion</li>
-<li><strong>Version Control:</strong> Git & GitHub Desktop</li>
-<li><strong>Diagram:</strong> Draw.io / Mermaid.js</li>
+<li><strong>Version Control:</strong> Git</li>
+<li><strong>Diagram:</strong> Draw.io</li>
 </ul>
 </div>
 </div>
 </div>
 
-<div style="background:var(--entry);padding:40px;text-align:center;border-top:4px solid var(--primary)">
+<div style="background:var(--entry);padding:40px;text-align:center;border-top:4px solid var(--primary);border-radius:16px">
 <h2 style="margin:0 0 20px 0">Liên hệ</h2>
 <div style="display:flex;justify-content:center;gap:30px;flex-wrap:wrap">
-<a href="mailto:bichluan253@gmail.com" style="text-decoration:none;font-weight:bold;display:flex;align-items:center;gap:10px">bichluan253@gmail.com</a>
-<a href="https://github.com/llllluan2534" style="text-decoration:none;font-weight:bold;display:flex;align-items:center;gap:10px">GitHub</a>
+<a href="mailto:bichluan253@gmail.com" style="text-decoration:none;font-weight:bold;display:flex;align-items:center;gap:10px">📧 bichluan253@gmail.com</a>
+<a href="https://github.com/llllluan2534" style="text-decoration:none;font-weight:bold;display:flex;align-items:center;gap:10px">🐈 GitHub</a>
 </div>
 </div>
 </div>
@@ -227,9 +206,5 @@ Dự án: Pione Game Trace.</p>
 <img id="modalImg" src="">
 </div>
 <script>
-var modal = document.getElementById("certModal");
-var modalImg = document.getElementById("modalImg");
-function showModal(src){modal.style.display="flex";modalImg.src=src;}
-function closeModal(){modal.style.display="none";}
-window.onclick=function(event){if(event.target==modal){modal.style.display="none";}}
+var modal=document.getElementById("certModal");var modalImg=document.getElementById("modalImg");function showModal(src){modal.style.display="flex";modalImg.src=src}function closeModal(){modal.style.display="none"}window.onclick=function(event){if(event.target==modal){modal.style.display="none"}};
 </script>
